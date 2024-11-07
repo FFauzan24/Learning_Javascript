@@ -1,0 +1,27 @@
+GET http://localhost:5000/users
+
+###
+http://localhost:5000/users/672b79ce5259e46c238cd7c7
+
+###
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "name" : "Acenkzass",
+    "email" : "acenkz4@gmail.com",
+    "gender" : "female"
+}
+
+###
+PATCH http://localhost:5000/users/672b79ce5259e46c238cd7c7
+Content-Type: application/json
+
+{
+    "name" : "Acenkzassaaaaaa",
+    "email" : "acenkz4aaaaaa@gmail.com",
+    "gender" : "female"
+}
+
+###
+DELETE http://localhost:5000/users/672b79ce5259e46c238cd7c7
